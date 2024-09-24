@@ -1,0 +1,1 @@
+This project was inspired by Monogram where i learned more about responsive design and grid.
