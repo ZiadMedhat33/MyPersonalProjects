@@ -1,1 +1,1 @@
-This project was inspired by Monogram where i learned more about responsive design and grid.[Visit my site](https://ziadmedhat33.github.io/MyPersonalProjects/Coffee shop/)
+This project was inspired by Monogram where i learned more about responsive design and grid.[Visit my site](https://ziadmedhat33.github.io/MyPersonalProjects/Coffee-shop/)
