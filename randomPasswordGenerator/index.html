@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Password Generator</h1>
+        <div class="output">
+            <p id="password">CLICK GENERATE PASSWORD</p>
+            <button class="btn1" id="copy"></button>
+        </div>
+        <h2 id="length"></h2>
+        <div class="num">
+            <span>4</span>
+            <input type="range" min="4" max="32" class="slider" id="slider">
+            <span>32</span>
+        </div>
+        <h2>settings</h2>
+        <div class="upper">
+            <p>Include uppercase</p>
+            <input type="checkbox" id="c1">
+        </div>
+        <div class="lower">
+            <p>Include lowercase</p>
+            <input type="checkbox" id="c2">
+        </div>
+        <div class="numbers">
+            <p>Include numbers</p>
+            <input type="checkbox" id="c3">
+        </div>
+        <div class="symbols">
+            <p>Include symbols</p>
+            <input type="checkbox" id="c4">
+        </div>
+        <button class="btn2" id="generate">Generate Password</button>
+    </div>
+</body>
+
+</html>

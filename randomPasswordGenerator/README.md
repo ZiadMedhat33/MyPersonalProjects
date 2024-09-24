@@ -1,0 +1,2 @@
+This project was inspired by codepen password generator called "CodePen Home
+Random Password Generator - HTML | CSS | JS" by Sikriti Dakua where i learned checkbox switches and how to use random password.
