@@ -1,0 +1,1 @@
+this website was inspiration from podia where i tried to copy the structure of the website.
