@@ -1,0 +1,148 @@
+@import url("https://fonts.cdnfonts.com/css/dm-sans");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  min-height: 100vh;
+  width: 100%;
+  background-color: hsl(27, 66%, 92%);
+  font-family: "DM sans", sans-serif;
+}
+
+nav {
+  background-color: hsl(186, 34%, 60%);
+}
+
+.attribution {
+  margin-top: auto;
+}
+
+#balance {
+  width: 100%;
+  max-width: 31rem;
+  background-color: hsl(10, 79%, 65%);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: hsl(33, 100%, 98%);
+}
+
+#credit {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.spending {
+  background-color: hsl(33, 100%, 98%);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 31rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: hsl(25, 47%, 15%);
+}
+
+#week {
+  min-height: 20rem;
+  width: 100%;
+}
+
+.bottom {
+  margin-top: auto;
+  width: auto;
+  position: relative;
+}
+
+.chart {
+  background-color: hsl(10, 79%, 65%);
+  width: 2.5rem;
+  border-radius: 5px;
+  margin-top: auto;
+  transition: 0.3s ease-in-out;
+  height: 0;
+}
+
+@media only screen and (min-width: 601px) {
+  .chart:hover .current {
+    display: block;
+  }
+  .chart:hover {
+    filter: brightness(120%);
+  }
+}
+.day {
+  text-align: center;
+}
+
+.current {
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(33, 100%, 98%);
+  border-radius: 2px;
+  padding: 0.25rem;
+  min-width: 4rem;
+  position: absolute;
+  top: -2.5rem;
+  display: none;
+}
+
+.line {
+  border-bottom: 2px solid hsl(27, 66%, 92%);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .chart {
+    width: 1.7rem;
+  }
+  .current {
+    min-width: 3.5rem;
+  }
+  .bottom p {
+    font-size: 0.75rem;
+  }
+  .spending {
+    padding: 1rem;
+  }
+  .chart:focus .current {
+    display: block;
+  }
+  .chart:focus {
+    filter: brightness(120%);
+  }
+  .day {
+    text-align: center;
+  }
+}
+.header {
+  color: hsl(28, 10%, 53%);
+  max-width: 10rem;
+}
+
+#totalPrice {
+  color: hsl(25, 47%, 15%);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: -1rem;
+  max-width: 10rem;
+  overflow-x: scroll;
+}
+
+#precentage {
+  color: hsl(25, 47%, 15%);
+  font-weight: bold;
+  align-self: flex-end;
+  overflow-x: scroll;
+}
+
+.blue {
+  background-color: hsl(186, 34%, 60%);
+}
+
+/*# sourceMappingURL=output.css.map */
